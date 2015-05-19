@@ -1,0 +1,64 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+.navBar {
+	height: 15%;
+	width: 100%;
+	background: #ccc;
+}
+
+.inner {
+	height: 80%;
+	width: 8%;
+	background: #6495ed;
+	position: relative;
+	left: 2%;
+	top: 10%;
+}
+
+.white {
+	height: 25%;
+	width: 100%;
+	background: #fff;
+}
+
+.container {
+	padding: 2%;
+}
+
+.blue {
+	height: 15%;
+	width: 100%;
+	background: #6495ed;
+}
+
+.blue-green {
+	height: 15%;
+	width: 100%;
+	background: #61D0B3;
+}
+
+.light-green {
+	height: 15%;
+	width: 100%;
+	background: #d3ffce;
+}
+
+.yellow {
+	height: 15%;
+	width: 100%;
+	background: #ffa;
+}
+
+span {
+	font-size: 1.75em;
+	font-style: bold;
+	font-family: sans-serif;
+}
