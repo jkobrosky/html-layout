@@ -29,10 +29,6 @@ html, body {
 	background: #fff;
 }
 
-.container {
-	padding: 2%;
-}
-
 .blue {
 	height: 15%;
 	width: 100%;
@@ -57,8 +53,17 @@ html, body {
 	background: #ffa;
 }
 
+.holder {
+	height: 100%;
+	width: 100%;
+	padding: 2%;
+	display: table;
+}
+
 span {
-	font-size: 1.75em;
-	font-style: bold;
+	font-size: 20px;
 	font-family: sans-serif;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
 }
