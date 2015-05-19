@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+.left {
+	height: 100%;
+	width: 33.333%;
+	background: #36a9e0;
+	float: left;
+}
+
+.center {
+	height: 100%;
+	width: 33.333%;
+	background: #61D0B3;
+	float: left;
+}
+
+.right {
+	height: 100%;
+	width: 33.333%;
+	background: #d3ffce;
+	float: left;
+}
+
+.container {
+	height: 80%;
+	margin: 0;
+}
+
+.holder {
+	height: 20%;
+	width: 100%;
+	background: #ff0000;
+}
+
+span {
+	color: #fff;
+	font-size: 20px;
+	position: relative;
+	top: 50%;
+	left: 35%;
+}
