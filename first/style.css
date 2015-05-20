@@ -1,44 +1,52 @@
+* {
+	box-sizing: border-box;
+}
+
 html, body {
 	height: 100%;
 	width: 100%;
 	margin: 0;
 }
 
-* {
-	box-sizing:border-box;
-}
-
-.header {
-	height: 10%;
+.nav {
+	height: 15%;
 	width: 100%;
 	background: #000;
 }
 
 .left {
-	height: 90%;
-	width: 10%;
-	background: #d3d3d3;
+	height: 85%;
+	width: 15%;
+	background: #c0c0c0;
 	float: left;
 }
 
-.right {
+.container {
+	height: 85%;
+	width: 70%;
+	float: left;
+}
+
+.content {
 	height: 90%;
-	width: 10%;
-	background: #d3d3d3;
-	float: right;
+	width: 100%;
+	background: #fff;
 }
 
 .footer {
 	height: 10%;
-	width: 80%;
+	width: 100%;
 	background: #000;
-	margin-left: 10%;
 }
 
-.container {
-	height: 90%;
+.right {
+	height: 85%;
+	width: 15%;
+	background: #c0c0c0;
+	float: left;
 }
 
-.spacing {
-	height: 90%;
+span {
+	font-style: bold;
+	font-size: 1.5em;
 }
